@@ -1,0 +1,1 @@
+./cvc +define+FUNCTIONAL +define+USE_POWER_PINS +define+ENABLE_SDF +typdelays +fst+parallel2=on +dump2fst tb_pipelined_riscv.v ../final/pipelined_riscv_hazard.pnl.v -v ../lib/primitives_hd.v ../lib/sky130_fd_sc_hd.v

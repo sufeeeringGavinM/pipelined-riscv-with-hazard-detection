@@ -1,0 +1,2 @@
+#! /bin/sh
+exec docker run -u $(id -u) -v "$(dirname $(pwd)):/work" -w "/work/$(basename $(pwd))" --rm -it amura/open-src-cvc ./cvcsim.bin "$@"
