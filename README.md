@@ -8,4 +8,4 @@ rtl contains the rtl file
 sim contains the simulation files
 
 # requirements
-The only requirement is IIC-OSIC-TOOLS, which requires Docker.
+The only requirements are IIC-OSIC-TOOLS, which requires Docker. Also, cvc to run the simulation on the synthesized version.
